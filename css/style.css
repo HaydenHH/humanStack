@@ -1,0 +1,14 @@
+#myCanvas {
+  width: 100vw;
+  height: 200vh;
+}
+#btn {
+  width: 10vw;
+  padding: 20px;
+  border: 4px solid black;
+  text-align: center;
+}
+#btn:hover {
+  background-color: black;
+  color: white;
+}
