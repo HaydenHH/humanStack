@@ -60,7 +60,7 @@ window.onload=()=>{
 
     function drawPeople(){
         project.activeLayer.removeChildren()
-        project.importSVG("../person.svg", function (item) {
+        project.importSVG("person.svg", function (item) {
             const floor = 13
             let count = 1
             item.position.y = 300
