@@ -12,7 +12,7 @@ window.onload=()=>{
         const size = 50
         
 
-        project.importSVG("../js/person.svg", function (item) {
+        project.importSVG("js/person.svg", function (item) {
             for(let i=0;i<10;i++){
                 const ranSize = Math.random()*0.5
                  let svg = item.clone()
